@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+h1, h2, h3, h4, h5, h6, body, p, li {
+  font-family: 'Bebas Neue', serif !important;
+}
+/*
+body {
+  background-color: #fff;
+}*/
+
+h2.author, h3.date {
+  font-size: 0.9em !important;
+  text-transform: none !important;
+  text-align: left;
+  margin: 0 0 0px 0;
+}
+
+h1.title {
+  font-size: 150px;
+    margin: 100px 0 100px 0 !important;
+    text-align: left !important;
+    text-transform: !important;
+    color: #FF3CAC;
+    background: -webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 150px !important;
+    margin: 200px 0 100px 0 !important;
+    text-align: center !important;
+    text-transform: !important;
+    color: #FF3CAC;
+    background: -webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: none !important;
+}
+
+.reveal .controls .navigate-right, .reveal .controls .navigate-right.enabled {
+  border-left-color: #fc466b;
+}
+
+.reveal .controls .navigate-left, .reveal .controls .navigate-left.enabled{
+  border-right-color: #fc466b;
+}
+
+.reveal .controls .navigate-right.enabled:hover  {
+    border-left-color: #652e3a;
+}
+
+.reveal .controls .navigate-left.enabled:hover {
+    border-right-color: #652e3a;
+}
+
+.reveal .controls .navigate-down, .reveal .controls .navigate-down.enabled {
+    border-top-color: #fc466b;
+}
+
+.reveal .controls .navigate-up, .reveal .controls .navigate-up.enabled {
+    border-bottom-color: #fc466b;
+}
+
+.reveal .controls .navigate-down.enabled:hover  {
+    border-top-color: #652e3a;
+}
+
+.reveal .controls .navigate-up.enabled:hover {
+    border-bottom-color: #652e3a;
+}
+
+.reveal .progress span {
+  background-color: #fc466b;
+}
+    
+.reveal a:hover, .reveal a {
+  color: #fc466b;
+}
+
+.reveal a:hover {
+  font-weight: bold;
+}
+
+.reveal h1 {
+      margin: 250px 0 20px 0;
+}
+
+
+.reveal img {
+    border-width: 0px !important;
+    box-shadow: none !important;
+}
+
+.reveal pre {
+    box-shadow: none !important;
+}
+
+.html-widget {
+    margin: auto;
+}
+#play-pause-button {
+    color: white !important;
+    border: 0px !important;
+    background: transparent !important;
+}
+
+#play-controls * {
+    vertical-align: middle;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.reveal pre code {
+    max-height: 900px;
+}
+label#play-output {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
